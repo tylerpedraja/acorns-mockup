@@ -1,0 +1,26 @@
+.hero_content {
+    &_button {
+      background-color: $yellow;
+      margin-top: 10px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+
+
+.link{
+  border:none;
+  transition: 0.25s;
+  transform: scale(1);
+
+  &:hover {
+    border-top: 0;
+    border-left: 0;
+    border-right: 1px;
+    border-bottom: 1px solid black;
+    transform: scale(1.5);
+  }
+
+}

@@ -1,0 +1,86 @@
+*,
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero {
+  .bold{
+    color: $dark-brown;
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 4rem;
+    line-height: 3.7rem;
+padding-bottom: 30px;
+    
+    
+  }
+
+  &_content {
+    &_header {
+      line-height: 60px;
+    }
+
+    &_features {
+
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: $bright !important;
+      padding-top: 20px !important;
+      
+
+      &_item {
+        list-style: disc;
+        line-height: 35px;
+      }
+    }
+
+    &_button{
+      margin-top: 100px !important;
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+  }
+}
+
+.products_description{
+  h3{
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: underline;;
+  }
+
+  h4{
+    font-weight: 500;
+  }
+  p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.contact {
+  background-color: white;
+}
+
+.footer {
+  color: white;
+}
+
+@media only screen and (max-width: 820px) {
+  .hero {
+    font-size: 0.75rem;
+    h3 {
+      font-size: 1rem;
+      line-height: 2.4rem;
+    }
+
+    &_content_button{
+      margin-top: 100px !important;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+}
